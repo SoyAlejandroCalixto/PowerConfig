@@ -28,7 +28,7 @@ PowerConfig
 ```pwsh
 winget upgrade --all
 ```
-Run the main.ps1:
+* Run the main.ps1:
 ```pwsh
 .\main.ps1
 ```
