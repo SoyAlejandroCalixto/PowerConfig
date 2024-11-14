@@ -1,7 +1,5 @@
 ## Declarative configuration for Windows.
 
-***
-
 The idea is, after a Windows installation, to have **your whole operating system ready** after running `main.ps1`.
 
 Without spending hours downloading installers from the internet, setting things in configuration or creating dotfiles to reset your previous configuration.
@@ -25,8 +23,6 @@ PowerConfig
 * The `lib` folder contains the PowerConfig functions, it is the folder in charge of abstracting the configuration in the form of **declarative functions**, such as `SetTheme` to set the light/dark mode, or `WriteFile` to create a dotfile with a certain content in a certain path.
 
 * The `system` folder is **where all the configuration is defined**, such as `packages.ps1` which is in charge of installing all the applications, or `settings.ps1` which is in charge of configuring all the registry and Windows settings.
-
-***
 
 ## Run PowerConfig
 
