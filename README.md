@@ -1,12 +1,10 @@
-## Declarative configuration for Windows.
+# Declarative configuration for Windows.
 
 The idea is, after a Windows installation, to have **your whole operating system ready** after running `main.ps1`.
 
 Without spending hours downloading installers from the internet, setting things in configuration or creating dotfiles to reset your previous configuration.
 
 Simply save your PowerConfig configuration, either locally in a directory or in a remote repository, and you will have everything ready to go after execution.
-
-***
 
 > Warning: This tool is still at a very early stage, so it is not yet as complete as expected in the future. We also welcome contributions to speed up the process.
 
