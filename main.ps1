@@ -20,7 +20,6 @@ WriteFile "$env:USERPROFILE\AppData\Local\myfile.json" @"
 
 "@
 
-
 # Install some packages
 PkgsI -p @(
     "Git.Git",

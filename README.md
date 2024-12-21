@@ -21,11 +21,11 @@ PowerConfig
 
 ## Run PowerConfig
 
-* Make sure you have Winget everything in order with:
+* Install the previous dependencies:
 ```pwsh
-winget upgrade --all
+winget install Git.Git gerardog.gsudo
 ```
-* Run the main.ps1:
+* Run the main.ps1 **without administrador**:
 ```pwsh
 .\main.ps1
 ```
